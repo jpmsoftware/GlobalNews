@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/favicon.svg">
+    <title>News API - Maps API</title>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="settings" id="settings">
+        <div class="settings-header" id="settings-header">
+            <img src="./icon-settings.svg" alt="" id="icon-settings">
+            <h3 id="heading">Configuración</h3>
+        </div>
+        <div class="settings-body" id="settings-body">
+            <h4>Países</h4>
+            <hr>
+            <div class="container fc">
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/argentina.png" class="flag">
+                    <p>Argentina</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/brasil.png" class="flag">
+                    <p>Brasil</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/chile.png" class="flag">
+                    <p>Chile</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/china.png" class="flag">
+                    <p>China</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/españa.png" class="flag">
+                    <p>España</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/usa.png" class="flag">
+                    <p>Estados Unidos</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/israel.png" class="flag">
+                    <p>Israel</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/mexico.png" class="flag">
+                    <p>México</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/uk.png" class="flag">
+                    <p>Reino Unido</p>
+                </div>
+                <div class="container fr">
+                    <input type="checkbox" checked>
+                    <img src="./img/flags/uruguay.png" class="flag">
+                    <p>Uruguay</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSZjwEdZe_vtxvq2FctAqSNfp-muvv_v8&callback=loadMap&libraries=&v=weekly" defer></script>
+    <script src="./app.js"></script>
+</body>
+</html>

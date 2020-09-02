@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Argentina",
+        "position": {
+            "lat": -38.41,
+            "lng": -63.59
+        }
+    },
+    {
+        "name": "Brasil",
+        "position": {
+            "lat": -14.24,
+            "lng": -53.18
+        }
+    },
+    {
+        "name": "Chile",
+        "position": {
+            "lat": -36.73,
+            "lng": -71.05
+        }
+    },
+    {
+        "name": "China",
+        "position": {
+            "lat": 35.85,
+            "lng": 104.13
+        }
+    },
+    {
+        "name": "España",
+        "position": {
+            "lat": 40.20,
+            "lng": -3.71
+        }
+    },
+    {
+        "name": "Estados Unidos",
+        "position": {
+            "lat": 37.6,
+            "lng": -95.66
+        }
+    },
+    {
+        "name": "Israel",
+        "position": {
+            "lat": 31.41,
+            "lng": 35.08
+        }
+    },
+    {
+        "name": "Mexico",
+        "position": {
+            "lat": 23.62,
+            "lng": -102.53
+        }
+    },
+    {
+        "name": "Reino Unido",
+        "position": {
+            "lat": 55.36,
+            "lng": -3.44
+        }
+    },
+    {
+        "name": "Uruguay",
+        "position": {
+            "lat": -32.55,
+            "lng": -55.81
+        }
+    }
+]

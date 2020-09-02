@@ -1,0 +1,13 @@
+Conecta con la API de noticias y muestra las noticias mas relevantes de cada pais en google maps o preferentemente en 3D utilizando three js
+
+Países:
+Argentina
+Brasil
+Chile
+China
+España
+Estados Unidos
+Israel
+Mexico
+Reino Unido
+Uruguay
